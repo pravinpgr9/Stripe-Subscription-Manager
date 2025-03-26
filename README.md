@@ -1,7 +1,7 @@
 ﻿# Stripe Subscription Manager
 
 **Version:** 1.1  
-**Author:** Your Name  
+**Author:** Pravin Pagare
 **Description:** A custom Stripe subscription integration for WordPress that allows scheduling, modifying, and managing subscriptions directly from the WordPress admin panel.  
 
 ## **Features**
