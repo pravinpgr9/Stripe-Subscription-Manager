@@ -146,7 +146,10 @@ class Stripe_Subscription_Manager {
     }
 
     private function init_stripe() {
-        Stripe::setApiKey(get_option('stripe_secret_key', 'sk_test_51R6pNCDAWlyIto8u5Hrhm09HiU3dgwSzvpDiCJFkJmKrqNx5yKcg7yE0NiqcFDugN3pSxXd4q8x8K2keIYnlm8GZ00QXcVvPTm')); 
+         
+
+            Stripe::setApiKey(STRIPE_SECRET_KEY);
+
     }
 }
 
